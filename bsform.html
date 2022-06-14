@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>button bs</title>
+  <link href="bootstrap-css/bootstrap.min.css" rel="stylesheet">
+  <script src="bootstrap-js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+ <div class="conatiner d-grid gap-5 mt-5">
+  <form class="row g-3 mx-2">
+    <div class="col-auto">
+      <label class="visually-hidden">Email</label>
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+    </div>
+    <div class="col-auto">
+      <label  class="visually-hidden">Password</label>
+      <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+    </div>
+    <div class="mb-3">
+     <label class="form-label">Multiple files input example</label>
+     <input class="form-control" type="file" multiple>
+    </div>
+    <select class="form-select" >
+      <option >Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    <div class="form-check form-switch">
+     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+     <label class="form-check-label" >Default switch checkbox input</label>
+    </div>
+    <div class="form-check">
+     <input class="form-check-input" type="radio" id="flexSwitchCheckDefault">
+     <label class="form-check-label">Default switch radio input</label>
+    </div>
+  </form>
+
+ </div>
+</body>
+</html>
